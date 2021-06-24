@@ -10,13 +10,15 @@
 @import"components/scrollToTopBtn.scss";
 @import"components/stickyNavBar.scss";
 @import"components/sideNav.scss";
-@import"components/scrollBar.scss";
+/*@import"components/scrollBar.scss";*/
 @import"components/hiddenScrollbar.scss";
 @import"layouts/homeImgLayout.scss";
 @import"vendors/fullpage.css";
 
+
 body {
     font-family: 'Montserrat Regular';
+
 }
 
 p{
@@ -44,6 +46,8 @@ h1{
 
 /* Mobile Styles */
 @media only screen and (max-width: 450px) {
+
+@import"components/themeSwitcherMobile.scss";
 
   #homeNavContainer{
      border-top: none;
