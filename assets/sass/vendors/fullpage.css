@@ -1,0 +1,10 @@
+#fullpage{
+  height: 100vh;
+  overflow: hidden;
+}
+
+#fullpage section{
+  height: 100vh;
+  text-align: center;
+  line-height: 100vh;
+}

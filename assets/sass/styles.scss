@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import"font/fonts.scss";
+@import"components/themeSwitcher.scss";
+@import"themes/darkTheme.scss";
+@import"components/scrollToTopBtn.scss";
+@import"components/stickyNavBar.scss";
+@import"components/sideNav.scss";
+@import"components/scrollBar.scss";
+@import"layouts/homeImgLayout.scss";
+@import"vendors/fullpage.css";
+
+body {
+    font-family: 'Montserrat Regular';
+}
+
+p{
+  text-align: center;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.body-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+
+  #homeNavContainer{
+     border-top: none;
+  }
+
+  .flexContainer{
+    flex-direction: column;
+  }
+
+  .homeImgLayout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  body {
+    background-color: #f0f0f0;
+
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 451px) and (max-width: 800px) {
+
+  #homeNavContainer{
+    border-top: none;
+  }
+
+  .flexContainer{
+    flex-direction: column;
+  }
+
+  .homeImgLayout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  body {
+    background-color: #f0f0f0;
+
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 801px) {
+
+  #homeNavContainer{
+    border-top: 1px solid #2b8fba;
+  }
+
+  body {
+    background-color: #f0f0f0;
+
+  }
+}
