@@ -11,6 +11,7 @@
 @import"components/stickyNavBar.scss";
 @import"components/sideNav.scss";
 @import"components/scrollBar.scss";
+@import"components/hiddenScrollbar.scss";
 @import"layouts/homeImgLayout.scss";
 @import"vendors/fullpage.css";
 
@@ -28,11 +29,17 @@ h1{
   text-align: center;
 }
 
-.body-container{
+.body-container {
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.footer {
+  display: flex;
+  background-color: #2b8fba;
+  height: 50px;
 }
 
 /* Mobile Styles */
