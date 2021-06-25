@@ -215,12 +215,21 @@ body.darktheme #Surname {
   /*transition: .6s;*/
 }
 
+body.darktheme .footer {
+  background-color: #353535;
+}
+
+body.darktheme .scrollToTopBtn {
+  background-color: #353535;
+  border: 2px solid #292929;
+}
+
 .scrollToTopBtn {
   position: fixed;
   bottom: 10px;
   right: 10px;
   background-color: #2b8fba;
-  border: none;
+  border: 1px solid #f0f0f0;
   border-radius: 25%;
   color: #f0f0f0;
   font-weight: bold;
@@ -378,7 +387,7 @@ h1 {
 .footer {
   display: flex;
   background-color: #2b8fba;
-  height: 50px;
+  height: 100px;
 }
 
 /* Mobile Styles */
