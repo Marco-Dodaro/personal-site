@@ -325,7 +325,6 @@ body.darktheme #Surname {
   padding-bottom: 1.5px;
 }
 
-/*@import"components/scrollBar.scss";*/
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -343,26 +342,12 @@ body.darktheme #Surname {
   /*border-radius: 5px;*/
 }
 
-body:hover::-webkit-scrollbar {
-  /* styles for scrollbar */
-}
-
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #216e8f;
 }
 
-body:hover::-webkit-scrollbar-track {
-  /* styles for scrollbar track */
-}
-
-body::-webkit-scrollbar-thumb:vertical:hover {
-  /* hover thumb styles */
-}
-
-body::-webkit-scrollbar-thumb:vertical:active {
-  /* active thumb styles */
-}
-
+/*@import"components/hiddenScrollbar.scss";*/
 .homeImgLayout {
   display: flex;
   justify-content: center;

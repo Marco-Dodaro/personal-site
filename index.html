@@ -10,6 +10,9 @@
      <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
      <script src="assets/sass/vendors/jquery.fullpage.js"></script>
      <script src="assets/js/sideNav.js"></script>
+     <script src="assets/js/scrollBar.js"></script>
+     <script src="assets/js/scrollToTop.js"></script>
+     <script src="assets/jquery/scrollToTopHidden.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
      <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico" />
 
@@ -89,28 +92,6 @@
       </div>
 
 
-      <script>
-          $(document).ready(function(){
-
-      	var elm_class = '.scrollToTopBtn'; // Adjust this accordingly.
-
-      	//Check to see if the window is top if not then display button
-      	$(window).scroll(function(){
-      		if ($(this).scrollTop() > 50) { // 50px from top
-      			$(elm_class).fadeIn();
-      		} else {
-      			$(elm_class).fadeOut();
-      		}
-      	});
-
-      	//Click event to scroll to top
-      	$(elm_class).click(function(){
-      		$('html, body').animate({scrollTop : 0},800);
-      		return false;
-      	});
-
-      });
-      </script>
 
       <script type='text/javascript'>
       function retheme() {
@@ -139,19 +120,6 @@
 //        $('#fullpage').fullpage();
       </script>
 
-      <script>
-        var scrollToTopBtn = document.getElementById("scrollToTopBtn")
-        var rootElement = document.documentElement
-
-          function scrollToTop() {
-            // Scroll to top logic
-            rootElement.scrollTo({
-              top: 0,
-              behavior: "smooth"
-            })
-          }
-          scrollToTopBtn.addEventListener("click", scrollToTop)
-      </script>
 
       <script>
       window.onscroll = function() {stickyNavBar()};
