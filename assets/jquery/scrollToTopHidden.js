@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 var elm_class = '.scrollToTopBtn'; // Adjust this accordingly.
-
+  $(elm_class).fadeOut();
 //Check to see if the window is top if not then display button
 $(window).scroll(function(){
 if ($(this).scrollTop() > 50) { // 50px from top
