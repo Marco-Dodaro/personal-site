@@ -39,9 +39,11 @@ h1{
 
 footer {
   font-family: 'Montserrat Italic';
+  font-size: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: #2b8fba;
   color: #f0f0f0;
   height: 70px;
@@ -69,6 +71,10 @@ footer {
   body {
     background-color: #f0f0f0;
 
+  }
+
+  footer {
+    font-size: 11px;
   }
 }
 
