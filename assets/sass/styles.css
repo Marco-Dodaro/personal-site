@@ -365,6 +365,7 @@ body.darktheme .scrollToTopBtn {
 
 body {
   font-family: 'Montserrat Regular';
+  background-color: #f0f0f0;
 }
 
 p {
@@ -460,11 +461,8 @@ footer {
     justify-content: center;
     width: 100%;
   }
-  body {
-    background-color: #f0f0f0;
-  }
   footer {
-    font-size: 6px;
+    font-size: 10px;
   }
 }
 
@@ -481,17 +479,11 @@ footer {
     justify-content: center;
     width: 100%;
   }
-  body {
-    background-color: #f0f0f0;
-  }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 801px) {
   #homeNavContainer {
     border-top: 1px solid #2b8fba;
-  }
-  body {
-    background-color: #f0f0f0;
   }
 }
