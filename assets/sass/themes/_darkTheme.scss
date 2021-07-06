@@ -1,31 +1,35 @@
 body.darktheme{
-  color:#f0f0f0;
-  background-color:#292929;
+  color:#292929;
+  background-color:#f0f0f0;
   /*transition: .6s;*/
 }
 
 body.darktheme #navbar{
-  color:#f0f0f0;
-  background-color:#292929;
+  color:#292929;
+  background-color:#f0f0f0;
   /*transition: .6s;*/
 }
 
 body.darktheme #mySidenav{
-  color:#f0f0f0;
-  background-color:#292929;
+  color:#292929;
+  background-color:#f0f0f0;
   /*transition: .6s;*/
 }
 
 body.darktheme #Surname{
-  color:#f0f0f0;
+  color:#292929;
   /*transition: .6s;*/
 }
 
 body.darktheme footer {
-    background-color: #353535;
+    background-color: #2b8fba;
 }
 
 body.darktheme .scrollToTopBtn{
-    background-color: #353535;
-    border: 2px solid #292929;
+    background-color: #2b8fba;
+    border: 1px solid #f0f0f0;
+    &:hover {
+    background-color: #216e8f;
+    color: #f0f0f0;
+  }
 }
