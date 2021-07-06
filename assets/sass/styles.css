@@ -244,24 +244,6 @@ body.darktheme .scrollToTopBtn {
   color: #f0f0f0;
 }
 
-.word-rotate {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 10em;
-  height: 1em;
-  position: relative;
-  display: inline-block;
-}
-
-.word-rotate li {
-  height: 1em;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transition: all 0.5s;
-}
-
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -400,7 +382,9 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
+  font-family: 'Montserrat SemiBold';
+  font-size: 45px;
 }
 
 .body-container {
@@ -414,7 +398,6 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
-  padding-top: 0px;
 }
 
 footer {

@@ -8,7 +8,6 @@
 @import"components/themeSwitcher.scss";
 @import"themes/darkTheme.scss";
 @import"components/scrollToTopBtn.scss";
-@import"components/carousel.scss";
 @import"components/stickyNavBar.scss";
 @import"components/sideNav.scss";
 @import"components/scrollBar.scss";
@@ -36,7 +35,9 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
+  font-family: 'Montserrat SemiBold';
+  font-size: 45px;
 }
 
 .body-container {
@@ -50,7 +51,6 @@ h1{
   display:flex;
   justify-content: space-evenly;
   padding: 50px;
-  padding-top: 0px;
 }
 
 footer {
