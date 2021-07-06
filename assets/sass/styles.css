@@ -410,6 +410,13 @@ h1 {
   padding-right: 20px;
 }
 
+.flexContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  padding-top: 0px;
+}
+
 footer {
   font-family: 'Montserrat Italic';
   font-size: 13px;

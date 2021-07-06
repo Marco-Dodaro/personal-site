@@ -10,7 +10,7 @@
      <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
      <script src="assets/sass/vendors/jquery.fullpage.js"></script>
      <script src="assets/js/sideNav.js"></script>
-     <script src="assets/js/carousel.js"></script>
+
      <script src="assets/jquery/scrollToTopHidden.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
      <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico" />
@@ -57,9 +57,12 @@
       <div class="content">
         <div class="body-container">
 
-            <div class="flexContainer" style="display:flex; justify-content: space-around; padding: 50px; padding-top: 0px">
-              <h1>I'm Marco Dodaro</h1>
+            <div class="flexContainer">
+              <div class="flexContainer" style="flex-direction: column;">
+                <h1>I'm Marco Dodaro</h1>
+                <h1> Today I'm feeling <div id="carouselWords">creative</div></h1>
 
+              </div>
               <img class="homeImgLayout" src='assets/images/2.png'/>
             </div>
 <br/>
@@ -93,6 +96,20 @@
       </footer>
 
 
+      <script type='text/javascript'>
+          var words = [ 'innovative', 'curious', 'experimental', 'creative']
+          var counter = 0;
+
+          var word = document.getElementById("carouselWords");
+          setInterval(update_carousel_words, 1200);
+          function update_carousel_words(){
+            word.innerHTML = words[counter];
+            counter++;
+            if (counter >= words.length) {
+              counter = 0;
+            }
+          }
+      </script>
 
       <script type='text/javascript'>
       function retheme() {
