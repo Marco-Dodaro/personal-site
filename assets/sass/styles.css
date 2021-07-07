@@ -527,6 +527,7 @@ footer {
   }
   .textContainer {
     width: 320px;
+    padding-top: 40px;
   }
   footer div {
     font-size: 10px;
