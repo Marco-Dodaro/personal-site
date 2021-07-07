@@ -404,6 +404,19 @@ h1 {
   width: 50vw;
 }
 
+h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: 'Montserrat SemiBold';
+  font-size: 2vw;
+  line-height: 1.6;
+  word-spacing: 8px;
+  width: 50vw;
+}
+
 .body-container {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -495,7 +508,12 @@ footer {
     border-top: none;
   }
   h1 {
-    font-size: 4.2vw;
+    font-size: 7vw;
+    width: 320px;
+    word-spacing: 5px;
+  }
+  h2 {
+    font-size: 4vw;
     width: 320px;
     word-spacing: 5px;
   }
@@ -522,8 +540,12 @@ footer {
     border-top: none;
   }
   h1 {
-    word-spacing: 5px;
     font-size: 2.5vw;
+    word-spacing: 5px;
+  }
+  h2 {
+    font-size: 2vw;
+    word-spacing: 5px;
   }
   .homeImgLayout {
     width: 40vw;
