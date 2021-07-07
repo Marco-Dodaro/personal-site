@@ -365,8 +365,6 @@ body.darktheme .scrollToTopBtn:hover {
 .homeImgLayout {
   display: flex;
   justify-content: center;
-  /*  width: 40%;
-  height: 40%;*/
   width: 38vw;
   height: 40vw;
 }
@@ -436,7 +434,7 @@ h2 {
   justify-content: center;
   flex-direction: column;
   padding: 20px;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 footer {
@@ -525,6 +523,7 @@ footer {
   .homeImgLayout {
     width: 100%;
     height: 100%;
+    padding-top: 20px;
   }
   .textContainer {
     width: 320px;
