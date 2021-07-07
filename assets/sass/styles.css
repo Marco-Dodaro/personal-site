@@ -368,6 +368,11 @@ body.darktheme .scrollToTopBtn:hover {
   width: 45%;
 }
 
+.textSideImg {
+  flex-direction: column;
+  width: 55%;
+}
+
 body {
   font-family: 'Montserrat Regular';
   background-color: #292929;
@@ -386,11 +391,11 @@ p {
 h1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: left;
   font-family: 'Montserrat SemiBold';
-  /*font-size: 45px;*/
+  font-size: 40px;
 }
 
 .body-container {
@@ -474,8 +479,13 @@ footer {
   #homeNavContainer {
     border-top: none;
   }
+  h1 {
+    font-size: 25px;
+    width: 250px;
+  }
   .flexContainer {
     flex-direction: column;
+    padding: 30px;
   }
   .homeImgLayout {
     display: flex;
