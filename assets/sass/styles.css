@@ -422,7 +422,7 @@ h1 {
   justify-content: center;
   flex-direction: column;
   padding: 20px;
-  width: 350px;
+  width: auto;
 }
 
 footer {
@@ -507,6 +507,9 @@ footer {
     width: 100%;
     height: 100%;
   }
+  .textContainer {
+    width: 320px;
+  }
   footer div {
     font-size: 10px;
   }
@@ -518,7 +521,6 @@ footer {
     border-top: none;
   }
   h1 {
-    width: 600px;
     word-spacing: 5px;
     font-size: 2.5vw;
   }
