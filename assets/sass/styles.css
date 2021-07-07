@@ -410,6 +410,7 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
+  padding-top: 65px;
 }
 
 footer {
@@ -486,7 +487,7 @@ footer {
   }
   .flexContainer {
     flex-direction: column;
-    padding: 15px;
+    padding: 20px;
     padding-top: 35px;
   }
   .homeImgLayout {
