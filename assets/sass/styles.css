@@ -237,11 +237,19 @@ body.darktheme h2 {
   color: #2b8fba;
 }
 
+body.darktheme .buttonBasic {
+  background-color: #2b8fba;
+}
+
+body.darktheme .buttonBasic:hover {
+  background-color: #216e8f;
+}
+
 .scrollToTopBtn {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  background-color: #353535;
+  background-color: #3b3b3b;
   border: 1px solid #292929;
   border-radius: 25%;
   color: #f0f0f0;
@@ -255,6 +263,57 @@ body.darktheme h2 {
 .scrollToTopBtn:hover {
   background-color: #292929;
   color: #f0f0f0;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  padding-top: 80px;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  padding-right: 20px;
+}
+
+.textBasicStyle {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+.buttonBasic {
+  padding: 20px;
+  text-decoration: none;
+  background-color: #3b3b3b;
+  border: none;
+  border-radius: 0%;
+  color: #f0f0f0;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 6px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.buttonBasic:hover {
+  background-color: #2b8fba;
+  color: #f0f0f0;
+}
+
+.marginRight100 {
+  margin-right: 100px;
 }
 
 #navbar {
@@ -432,21 +491,6 @@ h2 {
   padding-right: 20px;
 }
 
-.flexContainer {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
-  padding-top: 80px;
-}
-
-.textContainer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 20px;
-  padding-right: 20px;
-}
-
 footer {
   font-family: 'Montserrat Italic';
   font-size: 13px;
@@ -454,7 +498,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #353535;
+  background-color: #3b3b3b;
   color: #f0f0f0;
   height: 70px;
 }
@@ -526,10 +570,20 @@ footer {
     width: 320px;
     word-spacing: 4px;
   }
+  .flexCenter {
+    flex-direction: column;
+    align-items: center;
+  }
   .flexContainer {
     flex-direction: column;
     padding: 20px;
     padding-top: 35px;
+  }
+  .buttonBasic {
+    margin-top: 20px;
+  }
+  .marginRight100 {
+    margin-right: 0px;
   }
   .homeImgLayout {
     width: 100%;

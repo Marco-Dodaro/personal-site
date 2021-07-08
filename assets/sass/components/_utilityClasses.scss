@@ -1,0 +1,49 @@
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexContainer{
+  display:flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  padding-top: 80px;
+}
+
+.textContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  padding-right: 20px;
+}
+
+.textBasicStyle{
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+.buttonBasic{
+  padding: 20px;
+  text-decoration: none;
+  background-color: #3b3b3b;
+  border: none;
+  border-radius: 0%;
+  color: #f0f0f0;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 6px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+    &:hover {
+    background-color: #2b8fba;
+    color: #f0f0f0;
+  }
+}
+
+.marginRight100{
+  margin-right: 100px;
+}

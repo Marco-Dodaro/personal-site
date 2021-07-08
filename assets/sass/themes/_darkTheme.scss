@@ -41,3 +41,10 @@ body.darktheme h1{
 body.darktheme h2{
   color: #2b8fba;
 }
+
+body.darktheme .buttonBasic {
+    background-color: #2b8fba;
+    &:hover {
+    background-color: #216e8f;
+  }
+}
