@@ -229,6 +229,14 @@ body.darktheme .scrollToTopBtn:hover {
   color: #f0f0f0;
 }
 
+body.darktheme h1 {
+  color: #2b8fba;
+}
+
+body.darktheme h2 {
+  color: #2b8fba;
+}
+
 .scrollToTopBtn {
   position: fixed;
   bottom: 10px;
@@ -394,9 +402,9 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  text-align: left;
+  text-align: right;
   font-family: 'Montserrat Bold Italic';
-  color: #2b8fba;
+  /*  color: #2b8fba;*/
   font-size: 2.5vw;
   line-height: 1.6;
   word-spacing: 8px;
@@ -409,8 +417,8 @@ h2 {
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
-  font-family: 'Montserrat SemiBold Italic';
-  color: #2b8fba;
+  font-family: 'Montserrat Bold Italic';
+  /*color: #2b8fba;*/
   font-size: 2vw;
   line-height: 1.6;
   word-spacing: 8px;
@@ -511,11 +519,12 @@ footer {
     font-size: 7vw;
     width: 350px;
     word-spacing: 5px;
+    text-align: left;
   }
   h2 {
-    font-size: 4vw;
+    font-size: 4.5vw;
     width: 320px;
-    word-spacing: 5px;
+    word-spacing: 4px;
   }
   .flexContainer {
     flex-direction: column;
