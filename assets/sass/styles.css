@@ -313,7 +313,7 @@ body.darktheme .buttonBasic:hover {
 }
 
 .marginRight100 {
-  margin-right: 100px;
+  margin-right: 8vw;
 }
 
 #navbar {
@@ -585,7 +585,7 @@ footer {
     font-size: 4.5vw;
   }
   .marginRight100 {
-    margin-right: 20px;
+    margin-right: 1.3vw;
   }
   .homeImgLayout {
     width: 100%;
@@ -623,7 +623,7 @@ footer {
     font-size: 2.2vw;
   }
   .marginRight100 {
-    margin-right: 20px;
+    margin-right: 1.3vw;
   }
   .flexContainer {
     /*  flex-direction: column;*/
