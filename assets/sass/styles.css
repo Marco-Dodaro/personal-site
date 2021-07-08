@@ -245,6 +245,10 @@ body.darktheme .buttonBasic:hover {
   background-color: #216e8f;
 }
 
+body.darktheme .fa:hover {
+  color: #3b3b3b;
+}
+
 .scrollToTopBtn {
   position: fixed;
   bottom: 10px;
@@ -269,6 +273,16 @@ body.darktheme .buttonBasic:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footerCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumn {
+  flex-direction: column;
 }
 
 .flexContainer {
@@ -314,6 +328,44 @@ body.darktheme .buttonBasic:hover {
 
 .marginRight100 {
   margin-right: 8vw;
+}
+
+.fa {
+  font-size: 12px;
+  width: 13px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.fa:hover {
+  color: #2b8fba;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-skype {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.socialMediaFontSize {
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 #navbar {
@@ -500,7 +552,8 @@ footer {
   text-align: center;
   background-color: #3b3b3b;
   color: #f0f0f0;
-  height: 70px;
+  height: 125px;
+  margin-top: 30px;
 }
 
 /* Mobile Styles */
@@ -595,6 +648,9 @@ footer {
   .textContainer {
     width: 320px;
     padding-top: 40px;
+  }
+  footer {
+    height: 100px;
   }
   footer div {
     font-size: 10px;
