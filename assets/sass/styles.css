@@ -337,30 +337,57 @@ body.darktheme .fa:hover {
   text-decoration: none;
   margin-right: 15px;
   margin-left: 15px;
-}
-
-.fa:hover {
-  color: #2b8fba;
+  /*&:hover {
+    color: #2b8fba;
+  }*/
 }
 
 .fa-facebook {
   color: white;
 }
 
+.fa-facebook:hover {
+  color: #2567d9;
+}
+
 .fa-twitter {
   color: white;
+}
+
+.fa-twitter:hover {
+  color: #55ACEE;
 }
 
 .fa-instagram {
   color: white;
 }
 
+.fa-instagram:hover {
+  color: #d6229d;
+}
+
 .fa-skype {
   color: white;
 }
 
+.fa-skype:hover {
+  color: #00aff0;
+}
+
 .fa-linkedin {
   color: white;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-github:hover {
+  color: #b318f5;
 }
 
 .socialMediaFontSize {
