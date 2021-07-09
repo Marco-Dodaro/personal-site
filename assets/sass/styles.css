@@ -231,10 +231,12 @@ body.darktheme .scrollToTopBtn:hover {
 
 body.darktheme h1 {
   color: #2b8fba;
+  text-shadow: 1px 0 0 #216e8f;
 }
 
 body.darktheme h2 {
   color: #2b8fba;
+  text-shadow: 1px 0 0 #216e8f;
 }
 
 body.darktheme .buttonBasic {
@@ -279,6 +281,19 @@ body.darktheme .buttonBasic:hover {
 
 .flexColumn {
   flex-direction: column;
+}
+
+.sidePadding50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.paddingTop30 {
+  padding-top: 30px;
+}
+
+.fontSizeTitles {
+  font-size: 1.8vw;
 }
 
 .flexContainer {
@@ -647,6 +662,13 @@ footer {
     width: 320px;
     word-spacing: 4px;
   }
+  .fontSizeTitles {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 2.5vw;
+    word-spacing: 4px;
+  }
   .flexCenter {
     flex-direction: column;
     align-items: center;
@@ -694,6 +716,9 @@ footer {
     font-size: 2vw;
     word-spacing: 5px;
   }
+  .fontSizeTitles {
+    font-size: 3vw;
+  }
   .homeImgLayout {
     width: 40vw;
     height: 40vw;
@@ -706,7 +731,6 @@ footer {
     margin-right: 1.3vw;
   }
   .flexContainer {
-    /*  flex-direction: column;*/
     padding: 25px;
     padding-top: 80px;
   }
