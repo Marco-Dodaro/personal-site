@@ -245,10 +245,6 @@ body.darktheme .buttonBasic:hover {
   background-color: #216e8f;
 }
 
-body.darktheme .fa:hover {
-  color: #3b3b3b;
-}
-
 .scrollToTopBtn {
   position: fixed;
   bottom: 10px;
@@ -337,9 +333,10 @@ body.darktheme .fa:hover {
   text-decoration: none;
   margin-right: 15px;
   margin-left: 15px;
-  /*&:hover {
-    color: #2b8fba;
-  }*/
+}
+
+.fa:hover {
+  text-shadow: 0 0 8px #f0f0f0;
 }
 
 .fa-facebook {

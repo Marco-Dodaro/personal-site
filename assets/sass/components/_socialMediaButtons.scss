@@ -5,9 +5,9 @@
   text-decoration: none;
   margin-right: 15px;
   margin-left: 15px;
-  /*&:hover {
-    color: #2b8fba;
-  }*/
+  &:hover {
+    text-shadow: 0 0 8px #f0f0f0;
+  }
 }
 
 .fa-facebook {
