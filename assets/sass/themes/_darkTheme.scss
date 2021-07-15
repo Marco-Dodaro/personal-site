@@ -43,9 +43,25 @@ body.darktheme h2{
   color: #2b8fba;
 }
 
+body.darktheme h3{
+  color: #2b8fba;
+}
+
 body.darktheme .buttonBasic {
     background-color: #2b8fba;
     &:hover {
     background-color: #216e8f;
+  }
+}
+
+body.darktheme .container{
+  background-color: #2b8fba;
+  color: white;
+}
+
+body.darktheme input[type=submit] {
+  background-color: #41a7d3;
+  &:hover{
+  background-color: #216e8f;
   }
 }

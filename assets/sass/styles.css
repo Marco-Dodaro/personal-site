@@ -238,11 +238,28 @@ body.darktheme h2 {
   color: #2b8fba;
 }
 
+body.darktheme h3 {
+  color: #2b8fba;
+}
+
 body.darktheme .buttonBasic {
   background-color: #2b8fba;
 }
 
 body.darktheme .buttonBasic:hover {
+  background-color: #216e8f;
+}
+
+body.darktheme .container {
+  background-color: #2b8fba;
+  color: white;
+}
+
+body.darktheme input[type=submit] {
+  background-color: #41a7d3;
+}
+
+body.darktheme input[type=submit]:hover {
   background-color: #216e8f;
 }
 
@@ -531,23 +548,37 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  outline-color: #2b8fba;
+  background-color: #f0f0f0;
 }
 
 input[type=submit] {
-  font-family: 'Montserrat Regular';
-  background-color: #2b8fba;
+  font-family: 'Montserrat SemiBold';
+  background-color: #515151;
+  padding: 20px;
+  text-decoration: none;
   border: none;
+  border-radius: 0%;
+  color: #f0f0f0;
   cursor: pointer;
+  font-size: 18px;
+  line-height: 6px;
+  width: auto;
+  margin-left: 1.3vw;
+  margin-right: 1.3vw;
 }
 
 input[type=submit]:hover {
-  background-color: #216e8f;
+  background-color: #292929;
 }
 
 .container {
   border-radius: 5px;
   background-color: #3b3b3b;
   padding: 20px;
+  font-family: 'Montserrat Italic';
+  font-weight: bold;
+  width: 50vw;
 }
 
 /*@import"components/hiddenScrollbar.scss";*/
@@ -608,6 +639,14 @@ h2 {
   line-height: 1.6;
   word-spacing: 8px;
   width: 50vw;
+}
+
+h3 {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  font-family: 'Montserrat Bold';
+  color: white;
+  font-size: 24px;
 }
 
 .body-container {
@@ -719,6 +758,9 @@ footer {
     margin-top: 20px;
     font-size: 4.5vw;
   }
+  .container {
+    width: auto;
+  }
   .width40 {
     width: 72vw;
   }
@@ -769,6 +811,9 @@ footer {
   .buttonBasic {
     margin-top: 20px;
     font-size: 2.2vw;
+  }
+  .container {
+    width: 65vw;
   }
   .marginRight100 {
     margin-right: 1.3vw;

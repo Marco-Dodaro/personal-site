@@ -7,21 +7,35 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  outline-color: #2b8fba;
+  background-color: #f0f0f0;
 }
 
 input[type=submit] {
-  font-family: 'Montserrat Regular';
-  background-color: #2b8fba;
+  font-family: 'Montserrat SemiBold';
+  background-color: #515151;
+  padding: 20px;
+  text-decoration: none;
   border: none;
+  border-radius: 0%;
+  color: #f0f0f0;
   cursor: pointer;
+  font-size: 18px;
+  line-height: 6px;
+  width: auto;
+  margin-left: 1.3vw;
+  margin-right: 1.3vw;
 }
 
 input[type=submit]:hover {
-  background-color: #216e8f;
+  background-color: #292929;
 }
 
 .container {
   border-radius: 5px;
   background-color: #3b3b3b;
   padding: 20px;
+  font-family: 'Montserrat Italic';
+  font-weight: bold;
+  width: 50vw;
 }
