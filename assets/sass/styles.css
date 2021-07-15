@@ -282,6 +282,10 @@ body.darktheme .buttonBasic:hover {
   flex-direction: column;
 }
 
+.width40 {
+  width: 40vw;
+}
+
 .sidePadding50 {
   padding-left: 50px;
   padding-right: 50px;
@@ -292,7 +296,7 @@ body.darktheme .buttonBasic:hover {
 }
 
 .fontSizeTitles {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
 }
 
 .flexContainer {
@@ -518,6 +522,34 @@ body.darktheme .buttonBasic:hover {
   background: #216e8f;
 }
 
+input[type=text], select, textarea {
+  font-family: 'Montserrat Regular';
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-family: 'Montserrat Regular';
+  background-color: #2b8fba;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #216e8f;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #3b3b3b;
+  padding: 20px;
+}
+
 /*@import"components/hiddenScrollbar.scss";*/
 .homeImgLayout {
   display: flex;
@@ -543,7 +575,11 @@ body {
 }
 
 p {
-  text-align: center;
+  text-align: left;
+  font-size: 1vw;
+  line-height: 1.7;
+  word-spacing: 6px;
+  margin-bottom: 1vw;
 }
 
 h1 {
@@ -665,22 +701,26 @@ footer {
     font-size: 4vw;
   }
   p {
-    font-size: 2.5vw;
+    font-size: 3.6vw;
     word-spacing: 4px;
+    margin-bottom: 3vw;
   }
   .flexCenter {
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
   }
   .flexContainer {
     flex-direction: column;
     padding: 20px;
     padding-top: 35px;
+    padding-bottom: 40px;
   }
   .buttonBasic {
     margin-top: 20px;
     font-size: 4.5vw;
+  }
+  .width40 {
+    width: 72vw;
   }
   .marginRight100 {
     margin-right: 1.3vw;
@@ -692,7 +732,7 @@ footer {
   }
   .textContainer {
     width: 320px;
-    padding-top: 40px;
+    padding-top: 5.5vw;
   }
   footer {
     height: 100px;
@@ -714,6 +754,10 @@ footer {
   h2 {
     font-size: 2vw;
     word-spacing: 5px;
+  }
+  p {
+    font-size: 2vw;
+    word-spacing: 4px;
   }
   .fontSizeTitles {
     font-size: 3vw;
