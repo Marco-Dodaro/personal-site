@@ -242,6 +242,14 @@ body.darktheme h3 {
   color: #2b8fba;
 }
 
+body.darktheme .lightBackground {
+  background-color: #d6ebf3;
+}
+
+body.darktheme #titleblack {
+  color: black;
+}
+
 body.darktheme .buttonBasic {
   background-color: #2b8fba;
 }
@@ -277,7 +285,7 @@ body.darktheme textarea {
   right: 10px;
   background-color: #3b3b3b;
   border: 1px solid #292929;
-  border-radius: 25%;
+  border-radius: 25px;
   color: #f0f0f0;
   font-weight: bold;
   cursor: pointer;
@@ -331,12 +339,19 @@ body.darktheme textarea {
   padding-top: 80px;
 }
 
+.lightBackground {
+  background-color: #515151;
+  border-radius: 25px;
+}
+
 .textContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 20px;
   padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .textBasicStyle {
@@ -358,6 +373,7 @@ body.darktheme textarea {
   width: auto;
   margin-left: 1.3vw;
   margin-right: 1.3vw;
+  border-radius: 25px;
 }
 
 .buttonBasic:hover {
@@ -574,6 +590,7 @@ input[type=submit] {
   width: auto;
   margin-left: 1.3vw;
   margin-right: 1.3vw;
+  border-radius: 25px;
 }
 
 input[type=submit]:hover {

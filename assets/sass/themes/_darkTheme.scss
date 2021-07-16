@@ -47,6 +47,14 @@ body.darktheme h3{
   color: #2b8fba;
 }
 
+body.darktheme .lightBackground {
+  background-color: #d6ebf3;
+}
+
+body.darktheme #titleblack {
+  color: black;
+}
+
 body.darktheme .buttonBasic {
     background-color: #2b8fba;
     &:hover {

@@ -38,12 +38,19 @@
   padding-top: 80px;
 }
 
+.lightBackground {
+  background-color: #515151;
+  border-radius: 25px;
+}
+
 .textContainer{
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 20px;
   padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .textBasicStyle{
@@ -65,6 +72,7 @@
   width: auto;
   margin-left: 1.3vw;
   margin-right: 1.3vw;
+  border-radius: 25px;
     &:hover {
     background-color: #2b8fba;
     color: #f0f0f0;
