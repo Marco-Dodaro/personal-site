@@ -340,7 +340,7 @@ body.darktheme textarea {
 }
 
 .lightBackground {
-  background-color: #515151;
+  background-color: #3b3b3b;
   border-radius: 25px;
 }
 
@@ -350,8 +350,7 @@ body.darktheme textarea {
   flex-direction: column;
   padding: 20px;
   padding-right: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 20px;
 }
 
 .textBasicStyle {
