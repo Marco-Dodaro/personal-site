@@ -285,7 +285,7 @@ body.darktheme textarea {
   right: 10px;
   background-color: #3b3b3b;
   border: 1px solid #292929;
-  border-radius: 25px;
+  border-radius: 10px;
   color: #f0f0f0;
   font-weight: bold;
   cursor: pointer;
@@ -313,6 +313,10 @@ body.darktheme textarea {
 
 .flexColumn {
   flex-direction: column;
+}
+
+.width32 {
+  width: 32vw;
 }
 
 .width40 {
@@ -635,6 +639,8 @@ p {
   line-height: 1.7;
   word-spacing: 6px;
   margin-bottom: 1vw;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h1 {
@@ -663,6 +669,8 @@ h2 {
   line-height: 1.6;
   word-spacing: 8px;
   width: 50vw;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h3 {
@@ -671,6 +679,15 @@ h3 {
   font-family: 'Montserrat Bold';
   color: white;
   font-size: 24px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+  word-spacing: 6px;
+  list-style: none;
 }
 
 .body-container {
