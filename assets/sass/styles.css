@@ -549,7 +549,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   outline-color: #2b8fba;
-  background-color: #f0f0f0;
+  background-color: #d2d2d2;
 }
 
 input[type=submit] {
