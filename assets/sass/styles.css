@@ -305,6 +305,12 @@ body.darktheme textarea {
   align-items: center;
 }
 
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .footerCenter {
   display: flex;
   justify-content: center;
@@ -546,7 +552,7 @@ body.darktheme textarea {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */

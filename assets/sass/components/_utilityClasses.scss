@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .footerCenter{
   display: flex;
   justify-content: center;
