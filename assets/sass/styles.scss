@@ -15,7 +15,7 @@
 @import"components/scrollBar.scss";
 @import"components/formClasses.scss";
 /*@import"components/hiddenScrollbar.scss";*/
-@import"layouts/homeImgLayout.scss";
+@import"layouts/ImgLayout.scss";
 @import"layouts/textSideImg.scss";
 @import"vendors/fullpage.css";
 
@@ -128,6 +128,7 @@ footer {
     font-size: 4.5vw;
     width: 320px;
     word-spacing: 4px;
+  /*  justify-content: center;*/
   }
 
   .fontSizeTitles {
@@ -139,9 +140,18 @@ footer {
     word-spacing: 4px;
     margin-bottom: 3vw;
   }
+/*
+  ul{
+    display: contents;
+  }*/
 
   .flexCenter{
     flex-direction: column;
+    align-items: center;
+  }
+
+  .flexCenterColumnReverse{
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -179,9 +189,21 @@ footer {
     padding-top: 20px;
   }
 
+  .imgSideText1 {
+    width: auto;
+    height: 70vw;
+  }
+
+  .imgSideText2 {
+    width: 100vw;
+    height: 50vw;
+  }
+
   .textContainer{
     width: 320px;
     padding-top: 5.5vw;
+    background-color: #fff0;
+  /*  align-items: center;*/
   }
 
   footer{

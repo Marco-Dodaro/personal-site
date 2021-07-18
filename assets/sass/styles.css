@@ -305,6 +305,12 @@ body.darktheme textarea {
   align-items: center;
 }
 
+.flexCenterColumnReverse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .flexRow {
   display: flex;
   flex-direction: row;
@@ -623,6 +629,24 @@ input[type=submit]:hover {
   height: 40vw;
 }
 
+.aboutImgLayout {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 30vw;
+  margin-bottom: 25px;
+}
+
+.imgSideText1 {
+  width: auto;
+  height: 30vw;
+}
+
+.imgSideText2 {
+  width: 40vw;
+  height: 30vw;
+}
+
 .textSideImg {
   flex-direction: column;
   width: 55%;
@@ -782,6 +806,7 @@ footer {
     font-size: 4.5vw;
     width: 320px;
     word-spacing: 4px;
+    /*  justify-content: center;*/
   }
   .fontSizeTitles {
     font-size: 4vw;
@@ -791,8 +816,16 @@ footer {
     word-spacing: 4px;
     margin-bottom: 3vw;
   }
+  /*
+  ul{
+    display: contents;
+  }*/
   .flexCenter {
     flex-direction: column;
+    align-items: center;
+  }
+  .flexCenterColumnReverse {
+    flex-direction: column-reverse;
     align-items: center;
   }
   .flexContainer {
@@ -822,9 +855,19 @@ footer {
     height: 100%;
     padding-top: 20px;
   }
+  .imgSideText1 {
+    width: auto;
+    height: 70vw;
+  }
+  .imgSideText2 {
+    width: 100vw;
+    height: 50vw;
+  }
   .textContainer {
     width: 320px;
     padding-top: 5.5vw;
+    background-color: #fff0;
+    /*  align-items: center;*/
   }
   footer {
     height: 100px;
