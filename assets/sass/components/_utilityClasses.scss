@@ -16,6 +16,10 @@
   justify-content: space-between;
 }
 
+.directionRow{
+  flex-direction: row;
+}
+
 .footerCenter{
   display: flex;
   justify-content: center;
@@ -32,6 +36,14 @@
 
 .width40{
   width: 40vw;
+}
+
+.height32{
+  height: 28vw;
+}
+
+.height39{
+  height: 39vw;
 }
 
 .sidePadding50{
@@ -66,6 +78,10 @@
   padding: 20px;
   padding-right: 20px;
   margin: 20px;
+}
+
+.widthTextContainer{
+  width: auto;
 }
 
 .textBasicStyle{
