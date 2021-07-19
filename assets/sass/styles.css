@@ -716,6 +716,7 @@ input[type=submit]:hover {
 .imgSideText1 {
   width: auto;
   height: 39vw;
+  border-radius: 25px;
 }
 
 .imgSideText2 {
@@ -947,8 +948,8 @@ footer {
     padding-top: 20px;
   }
   .imgSideText1 {
-    width: auto;
-    height: 70vw;
+    width: 68vw;
+    height: auto;
   }
   .imgSideText2 {
     width: 100vw;
