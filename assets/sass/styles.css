@@ -510,6 +510,7 @@ body.darktheme textarea {
   border-top: 1px solid #2b8fba;
   border-bottom: 1px solid #2b8fba;
   background-color: #292929;
+  z-index: 1;
 }
 
 .navBarContent {
@@ -971,6 +972,9 @@ footer {
   }
   .widthTextContainer {
     width: 215px;
+  }
+  .portfolioContainer {
+    height: 410px;
   }
   footer {
     height: 100px;
