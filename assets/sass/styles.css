@@ -251,10 +251,7 @@ body.darktheme .portfolioContainer {
 
 body.darktheme .imgMysite {
   background-color: #41a7d3;
-}
-
-body.darktheme .imgMysite:hover {
-  background-color: #216e8f;
+  transition: .8s;
 }
 
 body.darktheme #titleblack {
@@ -381,11 +378,11 @@ body.darktheme textarea {
 .portfolioContainer {
   display: flex;
   justify-content: flex-start;
-  margin-top: 80px;
+  margin-top: -20px;
   padding-right: 30px;
   padding-left: 30px;
-  background-color: #515151;
-  height: 75vw;
+  background-color: #292929;
+  height: 48vw;
 }
 
 .lightBackground {
@@ -974,7 +971,7 @@ footer {
     width: 215px;
   }
   .portfolioContainer {
-    height: 410px;
+    height: 490px;
   }
   footer {
     height: 100px;

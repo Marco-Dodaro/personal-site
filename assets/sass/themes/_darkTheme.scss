@@ -56,9 +56,7 @@ body.darktheme .portfolioContainer{
 
 body.darktheme .imgMysite {
     background-color: #41a7d3;
-    &:hover {
-      background-color: #216e8f;
-    }
+    transition: .8s;
 }
 
 body.darktheme #titleblack {
