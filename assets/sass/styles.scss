@@ -16,7 +16,6 @@
 @import"components/formClasses.scss";
 /*@import"components/hiddenScrollbar.scss";*/
 @import"layouts/ImgLayout.scss";
-@import"layouts/textSideImg.scss";
 @import"vendors/fullpage.css";
 
 
@@ -202,6 +201,16 @@ footer {
     border-radius: 0px;
   }
 
+  .imgDescription {
+    bottom: -32vw;
+    left: 32vw;
+  }
+
+  .imgMysite {
+    width: 85vw;
+    height: 49vw;
+  }
+
   .textContainer{
     padding-top: 5.5vw;
     background-color: #fff0;
@@ -213,6 +222,7 @@ footer {
 
   footer{
     height: 100px;
+    margin-top: 0px;
   }
 
   footer div{
@@ -240,11 +250,6 @@ footer {
   p{
     font-size: 2vw;
     word-spacing: 4px;
-  }
-
-  .flexCenter{
-    flex-direction: column;
-    align-items: center;
   }
 
   .flexCenterColumnReverse{
@@ -277,6 +282,16 @@ footer {
   .imgSideText2 {
     width: 55vw;
     height: 40vw;
+  }
+
+  .imgDescription {
+    bottom: -17.5vw;
+    left: 16vw;
+  }
+
+  .imgMysite {
+    width: 47vw;
+    height: 31vw;
   }
 
   .buttonBasic{

@@ -66,6 +66,17 @@
   padding-top: 80px;
 }
 
+.portfolioContainer{
+  display:flex;
+  justify-content: flex-start;
+  margin-top: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #515151;
+
+  height: 75vw;
+}
+
 .lightBackground {
   background-color: #3b3b3b;
   border-radius: 25px;

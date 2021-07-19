@@ -50,6 +50,17 @@ body.darktheme .lightBackground {
   background-color: #d6ebf3;
 }
 
+body.darktheme .portfolioContainer{
+  background-color: #d6ebf3;
+}
+
+body.darktheme .imgMysite {
+    background-color: #41a7d3;
+    &:hover {
+      background-color: #216e8f;
+    }
+}
+
 body.darktheme #titleblack {
   color: #0e76a8;
 }
