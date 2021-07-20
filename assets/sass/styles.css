@@ -347,6 +347,10 @@ body.darktheme textarea {
   width: 40vw;
 }
 
+.widthH2 {
+  width: 60vw;
+}
+
 .height32 {
   height: 28vw;
 }
@@ -936,6 +940,9 @@ footer {
   .width40 {
     width: 72vw;
   }
+  .widthH2 {
+    width: 55vw;
+  }
   .height39 {
     height: auto;
   }
@@ -1013,6 +1020,9 @@ footer {
   }
   .width40 {
     width: 82vw;
+  }
+  .widthH2 {
+    width: 45vw;
   }
   .fontSizeTitles {
     font-size: 3vw;
