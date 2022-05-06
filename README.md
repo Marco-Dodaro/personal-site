@@ -1,6 +1,6 @@
 # personal-site
 
-![](assets/images/mysite.jpg)
+![](assets/images/mysite.gif)
 
 Link to site: https://marco-dodaro.github.io/personal-site/
 
