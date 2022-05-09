@@ -1,7 +1,7 @@
-# personal-site
+# personal-website
 
 ![](assets/images/mysite.gif)
 
-Link to site: https://marco-dodaro.github.io/personal-site/
+Link to website: https://marco-dodaro.github.io/personal-site/
 
 (Front-end only project)
