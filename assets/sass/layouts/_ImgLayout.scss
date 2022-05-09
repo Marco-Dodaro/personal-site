@@ -32,8 +32,8 @@
   border-radius: 25px;
   background: #f0f0f0;
   color: black;
-  //visibility: hidden;
-//  opacity: 0;
+  visibility: hidden;
+  opacity: 0;
   transition: opacity .2s, visibility .2s;
   &:hover{
     background: #515151;
@@ -55,8 +55,8 @@
   border-radius: 25px;
   background: #f0f0f0;
   color: black;
- // visibility: hidden;
- //  opacity: 0;
+  visibility: hidden;
+   opacity: 0;
   transition: opacity .2s, visibility .2s;
   &:hover{
     background: #515151;

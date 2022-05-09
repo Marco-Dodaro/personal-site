@@ -700,6 +700,8 @@ input[type=submit]:hover {
   border-radius: 25px;
   background: #f0f0f0;
   color: black;
+  visibility: hidden;
+  opacity: 0;
   transition: opacity .2s, visibility .2s;
 }
 
@@ -722,6 +724,8 @@ input[type=submit]:hover {
   border-radius: 25px;
   background: #f0f0f0;
   color: black;
+  visibility: hidden;
+  opacity: 0;
   transition: opacity .2s, visibility .2s;
 }
 
@@ -1014,6 +1018,8 @@ footer {
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    visibility: visible;
+    opacity: 100;
   }
   .imgDescriptionGit {
     font-size: 10px;
@@ -1023,6 +1029,8 @@ footer {
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    visibility: visible;
+    opacity: 100;
   }
   .imgMysite {
     width: 225px;
