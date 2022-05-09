@@ -368,6 +368,10 @@ body.darktheme textarea {
   padding-top: 30px;
 }
 
+.marginTop70 {
+  margin-top: 100px;
+}
+
 .fontSizeTitles {
   font-size: 1.5vw;
 }
@@ -380,13 +384,14 @@ body.darktheme textarea {
 }
 
 .portfolioContainer {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: -20px;
-  padding-right: 30px;
-  padding-left: 30px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 250px;
   background-color: #292929;
-  height: 48vw;
+  min-height: calc(100vh - 54px - 125px);
+  padding-top: 75px;
 }
 
 .lightBackground {
@@ -681,38 +686,63 @@ input[type=submit]:hover {
   width: 55%;
 }
 
-.imgDescription {
+.imgDescriptionGit {
   font-family: 'Montserrat Bold';
   text-decoration: none;
   position: absolute;
   width: max-content;
-  padding-right: 4vw;
-  padding-left: 4vw;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  bottom: -11.5vw;
-  left: 13vw;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: -80px;
+  left: 55px;
   border-radius: 25px;
   background: #f0f0f0;
   color: black;
-  visibility: hidden;
-  opacity: 0;
   transition: opacity .2s, visibility .2s;
 }
 
-.imgDescription:hover {
+.imgDescriptionGit:hover {
+  background: #515151;
+  color: #f0f0f0;
+}
+
+.imgDescriptionLive {
+  font-family: 'Montserrat Bold';
+  text-decoration: none;
+  position: absolute;
+  width: max-content;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: -80px;
+  left: -85px;
+  border-radius: 25px;
+  background: #f0f0f0;
+  color: black;
+  transition: opacity .2s, visibility .2s;
+}
+
+.imgDescriptionLive:hover {
   background: #515151;
   color: #f0f0f0;
 }
 
 .imgWrap {
   position: relative;
-  width: 10vw;
-  height: 8vw;
+  width: 100px;
+  height: 90px;
   cursor: pointer;
 }
 
-.imgWrap:hover .imgDescription {
+.imgWrap:hover .imgDescriptionGit {
+  visibility: visible;
+  opacity: 1;
+}
+
+.imgWrap:hover .imgDescriptionLive {
   visibility: visible;
   opacity: 1;
 }
@@ -730,12 +760,13 @@ input[type=submit]:hover {
 }
 
 .imgMysite {
-  width: 39vw;
-  height: 23vw;
+  width: 350px;
+  height: 200px;
   padding: 20px;
   background-color: #3b3b3b;
   border-radius: 25px;
   cursor: pointer;
+  transform: translate(-35%);
   /*  -webkit-filter: brightness(100%);
   &:hover {
     -webkit-filter: brightness(110%);
@@ -751,6 +782,8 @@ body {
   font-family: 'Montserrat Regular';
   background-color: #292929;
   color: #f0f0f0;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 #surname {
@@ -917,6 +950,10 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .justifyCenter {
+    display: flex;
+    justify-content: space-around;
+  }
   .flexCenterColumnReverse {
     flex-direction: column-reverse;
     align-items: center;
@@ -933,6 +970,9 @@ footer {
   }
   .container {
     width: auto;
+  }
+  .navBarContent {
+    font-size: 17px;
   }
   .width32 {
     width: 60vw;
@@ -963,13 +1003,27 @@ footer {
     height: 50vw;
     border-radius: 0px;
   }
-  .imgDescription {
-    bottom: -32vw;
-    left: 32vw;
+  .imgDescriptionLive {
+    font-size: 10px;
+    left: -55px;
+    bottom: -33px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .imgDescriptionGit {
+    font-size: 10px;
+    left: 35px;
+    bottom: -33px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .imgMysite {
-    width: 85vw;
-    height: 49vw;
+    width: 225px;
+    height: 150px;
   }
   .textContainer {
     padding-top: 5.5vw;
@@ -980,6 +1034,12 @@ footer {
   }
   .portfolioContainer {
     height: 700px;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+    justify-content: normal;
+  }
+  .marginTop70 {
+    margin-top: 30px;
   }
   footer {
     height: 100px;
@@ -1035,13 +1095,16 @@ footer {
     width: 55vw;
     height: 40vw;
   }
-  .imgDescription {
-    bottom: -17.5vw;
-    left: 16vw;
+  .imgDescriptionLive {
+    bottom: -60px;
+  }
+  .imgDescriptionGit {
+    bottom: -60px;
+    left: 50px;
   }
   .imgMysite {
-    width: 47vw;
-    height: 31vw;
+    width: 330px;
+    height: 180px;
   }
   .buttonBasic {
     margin-top: 20px;
@@ -1056,6 +1119,9 @@ footer {
   .flexContainer {
     padding: 25px;
     padding-top: 80px;
+  }
+  .portfolioContainer {
+    grid-template-columns: 340px 340px;
   }
   .textContainer {
     background-color: #fff0;

@@ -59,6 +59,10 @@
   padding-top: 30px;
 }
 
+.marginTop70 {
+  margin-top: 100px;
+}
+
 .fontSizeTitles {
   font-size: 1.5vw;
 }
@@ -71,13 +75,14 @@
 }
 
 .portfolioContainer{
-  display:flex;
-  justify-content: flex-start;
-  margin-top: -20px;
-  padding-right: 30px;
-  padding-left: 30px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 250px;
   background-color: #292929;
-  height: 48vw;
+  min-height: calc(100vh - 54px - 125px);
+  padding-top: 75px;
 }
 
 .lightBackground {

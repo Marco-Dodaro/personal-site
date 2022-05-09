@@ -1,3 +1,4 @@
+//styles
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +24,8 @@ body {
     font-family: 'Montserrat Regular';
     background-color: #292929;
     color:#f0f0f0;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 #surname {
@@ -147,6 +150,11 @@ footer {
     align-items: center;
   }
 
+  .justifyCenter {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .flexCenterColumnReverse{
     flex-direction: column-reverse;
     align-items: center;
@@ -166,6 +174,10 @@ footer {
 
   .container{
     width: auto;
+  }
+
+  .navBarContent {
+    font-size: 17px;
   }
 
   .width32{
@@ -205,14 +217,29 @@ footer {
     border-radius: 0px;
   }
 
-  .imgDescription {
-    bottom: -32vw;
-    left: 32vw;
+  .imgDescriptionLive {
+    font-size: 10px;
+    left: -55px;
+    bottom: -33px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .imgDescriptionGit {
+    font-size: 10px;
+    left: 35px;
+    bottom: -33px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .imgMysite {
-    width: 85vw;
-    height: 49vw;
+    width: 225px;
+    height: 150px;
   }
 
   .textContainer{
@@ -226,6 +253,14 @@ footer {
 
   .portfolioContainer{
     height: 700px;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+    justify-content: normal;
+
+  }
+
+  .marginTop70 {
+    margin-top: 30px;
   }
 
   footer{
@@ -296,14 +331,18 @@ footer {
     height: 40vw;
   }
 
-  .imgDescription {
-    bottom: -17.5vw;
-    left: 16vw;
+  .imgDescriptionLive {
+    bottom: -60px;
+  }
+
+  .imgDescriptionGit {
+    bottom: -60px;
+    left: 50px;
   }
 
   .imgMysite {
-    width: 47vw;
-    height: 31vw;
+    width: 330px;
+    height: 180px;
   }
 
   .buttonBasic{
@@ -322,6 +361,10 @@ footer {
   .flexContainer{
     padding: 25px;
     padding-top: 80px;
+  }
+
+  .portfolioContainer{
+    grid-template-columns: 340px 340px;
   }
 
   .textContainer{

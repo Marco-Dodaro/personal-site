@@ -1,137 +1,166 @@
 <!DOCTYPE html>
 <html lang='en'>
-  	<head>
-   		 <meta charset='UTF-8'/>
-		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
 
-   	 <title>Marco Dodaro</title>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 
-     <link rel='stylesheet' href='../../assets/sass/styles.css'/>
-     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-     <script src="../../assets/sass/vendors/jquery.fullpage.js"></script>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <script src="../../assets/js/sideNav.js"></script>
-     <script src="../../assets/jquery/scrollToTopHidden.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
-     <link rel="shortcut icon" type="image/x-icon" href="../../assets/icons/favicon.ico" />
+  <title>Marco Dodaro</title>
 
-     <style>
+  <link rel='stylesheet' href='../../assets/sass/styles.css' />
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="../../assets/sass/vendors/jquery.fullpage.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="../../assets/js/sideNav.js"></script>
+  <script src="../../assets/jquery/scrollToTopHidden.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="../../assets/icons/favicon.ico" />
 
-     </style>
+  <style>
 
-   </head>
-  	<body>
+  </style>
 
+</head>
 
-            <div id="navbar">
-
-              <div style="display: flex; justify-content: space-between">
-                  <div class="navBarContent" style="padding-right: 18px; background-color: #2b8fba;color: #f0f0f0; font-family: 'Montserrat SemiBold'">Portfolio</div>
-                  <div id="surname" class="navBarContent">Dodaro</div>
-              </div>
-
-              <div class="navBtn">
-                <span style="font-size:32px;cursor:pointer" onclick="openNav()">&#9776;</span>
-              </div>
-
-              <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a id="homeNavContainer" href="../.." style="padding-top:12px; margin-top: -0.5px; font-family: 'Montserrat SemiBold'">Home</a>
-                <a href="../about" style="font-family: 'Montserrat SemiBold'">About</a>
-                <a href="#" style="font-family: 'Montserrat SemiBold'">Portfolio</a>
-                <a href="../contacts" style="font-family: 'Montserrat SemiBold'">Contacts</a>
-                <div style="position: absolute; bottom: 20px">
-                  <div id="themeText" class="navBarContent" style="color: #2b8fba; font-size: 20px; padding-top: 17px; font-family: 'Montserrat SemiBold'">Light\Dark</div>
-                  <div class="navBarContent">
-                    <div style="padding-top: 6px">
-                      <label class="switch">
-                        <input type="checkbox" onclick="retheme()">
-                        <span class="slider round"></span>
-                      </label>
-                    </div>
-                  </div>
-              </div>
-              </div>
-            </div>
-
-            <div class="content">
-              <div style="margin-top: 20px">
-
-                <div class="portfolioContainer paddingTop30">
-
-                    <div class = "imgWrap">
-                      <a href="https://github.com/Marco-Dodaro/personal-site"><img class="imgMysite" src='../../assets/images/mysite.jpg' alt="Link to my site"/></a>
-                      <a class="imgDescription" href="../..">My Site</a>
-                    </div>
-
-                </div>
-
-              </div>
-            </div>
+<body>
 
 
-            <footer style="margin-top: 0px">
-              <div class="footerCenter flexColumn">
-                  <div>
-                  Made with &#10084;&#65039; by Marco Dodaro © 2021 All rights reserved
-                  </div>
-                    </br>
-                    <div class="socialMediaFontSize">
-                      <a href="https://www.facebook.com/marco.dodaro.99" class="fa fa-facebook"></a>
-                      <a href="#" class="fa fa-twitter"></a>
-                      <a href="#" class="fa fa-linkedin"></a>
-                      <a href="https://www.instagram.com/marco_dodaro/" class="fa fa-instagram"></a>
-                      <a href="https://github.com/Marco-Dodaro" class="fa fa-github"></a>
-                    </div>
-              </div>
-            </footer>
+  <div id="navbar">
 
-            <script type='text/javascript'>
-            function retheme() {
-              var cc = document.body.className;
-              if (cc.indexOf("darktheme") > -1) {
-                document.body.className = cc.replace("darktheme", "");
-                if (opener) {opener.document.body.className = cc.replace("darktheme", "");}
-                localStorage.setItem("preferredmode", "light");
-              } else {
-                document.body.className += " darktheme";
-                if (opener) {opener.document.body.className += "darktheme";}
-                localStorage.setItem("preferredmode", "dark");
-              }
-            }
-            (
-            function setThemeMode() {
-              var x = localStorage.getItem("preferredmode");
-              if (x == "dark") {
-                document.body.className += " darktheme";
-              }
-            })();
-            </script>
+    <div style="display: flex; justify-content: space-between">
+      <div class="navBarContent" style="padding-right: 18px; background-color: #2b8fba;color: #f0f0f0; font-family: 'Montserrat SemiBold'">Portfolio</div>
+      <div id="surname" class="navBarContent">Dodaro</div>
+    </div>
 
-      <script type="text/javascript">
-        FastClick.attach(document.body);
-//        $('#fullpage').fullpage();
-      </script>
+    <div class="navBtn">
+      <span style="font-size:32px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a id="homeNavContainer" href="../.." style="padding-top:12px; margin-top: -0.5px; font-family: 'Montserrat SemiBold'">Home</a>
+      <a href="../about" style="font-family: 'Montserrat SemiBold'">About</a>
+      <a href="#" style="font-family: 'Montserrat SemiBold'">Portfolio</a>
+      <a href="../contacts" style="font-family: 'Montserrat SemiBold'">Contacts</a>
+      <div style="position: absolute; bottom: 20px">
+        <div id="themeText" class="navBarContent" style="color: #2b8fba; font-size: 20px; padding-top: 17px; font-family: 'Montserrat SemiBold'">Light\Dark</div>
+        <div class="navBarContent">
+          <div style="padding-top: 6px">
+            <label class="switch">
+              <input type="checkbox" onclick="retheme()">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div style="margin-top: 20px">
+
+      <div class="portfolioContainer">
+
+        <div class="imgWrap">
+          <img class="imgMysite" src='../../assets/images/mysite.jpg' alt="Link to my site" />
+          <div class="flexCenter">
+            <a class="imgDescriptionLive" href="../..">Live Version</a>
+            <a class="imgDescriptionGit" href="https://github.com/Marco-Dodaro/personal-site">GitHub Code</a>
+          </div>
+        </div>
+
+        <div class="imgWrap">
+          <img class="imgMysite" src='../../assets/images/vegetarian-recipes.png' alt="Link to my site" />
+          <div class="flexCenter">
+            <a class="imgDescriptionLive" href="https://github.com/Marco-Dodaro/vegetarian-recipes">Live Version</a>
+            <a class="imgDescriptionGit" href="https://vegetarianrecipes4all.netlify.app/">GitHub Code</a>
+          </div>
+        </div>
+
+        <div class="imgWrap">
+          <img class="imgMysite" src='../../assets/images/life-quality.png' alt="Link to my site" />
+          <div class="flexCenter">
+            <a class="imgDescriptionLive" href="https://github.com/Marco-Dodaro/life-quality">Live Version</a>
+            <a class="imgDescriptionGit" href="https://urban-life-quality.netlify.app/">GitHub Code</a>
+          </div>
+        </div>
 
 
+      </div>
 
-      <script>
-      window.onscroll = function() {stickyNavBar()};
-      // Get the navbar
-      var navbar = document.getElementById("navbar");
+    </div>
+  </div>
 
-      // Get the offset position of the navbar
-      var sticky = navbar.offsetTop;
+  <footer class="marginTop70">
+    <div class="footerCenter flexColumn">
+      <div>
+        Made with &#10084;&#65039; by Marco Dodaro © 2021 All rights reserved
+      </div>
+      </br>
+      <div class="socialMediaFontSize">
+        <a href="https://www.facebook.com/marco.dodaro.99" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/marco_dodaro/" class="fa fa-instagram"></a>
+        <a href="https://github.com/Marco-Dodaro" class="fa fa-github"></a>
+      </div>
+    </div>
+  </footer>
 
-      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-      function stickyNavBar() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky")
-        } else {
-          navbar.classList.remove("sticky");
+
+  <script type='text/javascript'>
+    function retheme() {
+      var cc = document.body.className;
+      if (cc.indexOf("darktheme") > -1) {
+        document.body.className = cc.replace("darktheme", "");
+        if (opener) {
+          opener.document.body.className = cc.replace("darktheme", "");
         }
+        localStorage.setItem("preferredmode", "light");
+      } else {
+        document.body.className += " darktheme";
+        if (opener) {
+          opener.document.body.className += "darktheme";
+        }
+        localStorage.setItem("preferredmode", "dark");
       }
-      </script>
+    }
+    (
+      function setThemeMode() {
+        var x = localStorage.getItem("preferredmode");
+        if (x == "dark") {
+          document.body.className += " darktheme";
+        }
+      })();
+  </script>
 
-    </body>
+  <script type="text/javascript">
+    FastClick.attach(document.body);
+    //        $('#fullpage').fullpage();
+  </script>
+
+
+
+  <script>
+    window.onscroll = function() {
+      stickyNavBar()
+    };
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function stickyNavBar() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+
 </html>

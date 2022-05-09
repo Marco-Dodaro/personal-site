@@ -18,22 +18,45 @@
   width: 55%;
 }
 
-.imgDescription {
+.imgDescriptionGit {
   font-family: 'Montserrat Bold';
   text-decoration: none;
   position: absolute;
   width: max-content;
-  padding-right: 4vw;
-  padding-left: 4vw;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  bottom: -11.5vw;
-  left: 13vw;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: -80px;
+  left: 55px;
   border-radius: 25px;
   background: #f0f0f0;
   color: black;
-  visibility: hidden;
-  opacity: 0;
+  //visibility: hidden;
+//  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  &:hover{
+    background: #515151;
+    color: #f0f0f0;
+  }
+}
+
+.imgDescriptionLive {
+  font-family: 'Montserrat Bold';
+  text-decoration: none;
+  position: absolute;
+  width: max-content;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: -80px;
+  left: -85px;
+  border-radius: 25px;
+  background: #f0f0f0;
+  color: black;
+ // visibility: hidden;
+ //  opacity: 0;
   transition: opacity .2s, visibility .2s;
   &:hover{
     background: #515151;
@@ -43,12 +66,16 @@
 
 .imgWrap{
   position: relative;
-  width: 10vw;
-  height: 8vw;
+  width: 100px;
+  height: 90px;
   cursor: pointer;
-    &:hover .imgDescription {
+    &:hover .imgDescriptionGit {
       visibility: visible;
       opacity: 1;
+  }
+  &:hover .imgDescriptionLive {
+    visibility: visible;
+    opacity: 1;
   }
 }
 
@@ -65,12 +92,13 @@
 }
 
 .imgMysite {
-  width: 39vw;
-  height: 23vw;
+  width: 350px;
+  height: 200px;
   padding: 20px;
   background-color: #3b3b3b;
   border-radius: 25px;
   cursor: pointer;
+  transform: translate(-35%);
 /*  -webkit-filter: brightness(100%);
   &:hover {
     -webkit-filter: brightness(110%);
