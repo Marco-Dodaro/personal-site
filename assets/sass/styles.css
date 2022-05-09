@@ -246,7 +246,7 @@ body.darktheme .lightBackground {
 }
 
 body.darktheme .portfolioContainer {
-  background-color: #d6ebf3;
+  background-color: #f0f0f0;
 }
 
 body.darktheme .imgMysite {
@@ -998,11 +998,13 @@ footer {
   .imgSideText1 {
     width: 68vw;
     height: auto;
+    margin-top: 20px;
   }
   .imgSideText2 {
     width: 100vw;
     height: 50vw;
     border-radius: 0px;
+    margin-top: 20px;
   }
   .imgDescriptionLive {
     font-size: 10px;
