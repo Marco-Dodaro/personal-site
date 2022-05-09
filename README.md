@@ -2,6 +2,8 @@
 
 ![](assets/images/mysite.gif)
 
-Link to website: https://marco-dodaro.github.io/personal-site/
+Front End project: Personal Portfolio Website.
 
-(Front-end only project)
+Features: side menu navbar, dark/light themes, responsive design for desktop, tablet and mobile.
+
+Link to website: https://marco-dodaro.github.io/personal-site/
